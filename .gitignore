@@ -1,0 +1,11 @@
+[Tt]humbs.db
+*.DS_Store
+*.iml
+local.properties
+**/build
+**/.idea/
+.gradle
+.externalNativeBuild
+/captures
+
+
