@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:contentInsetEnd="@dimen/dimen_0_dp"
+    app:contentInsetStart="@dimen/dimen_0_dp"
+    android:elevation="@dimen/dimen_4_dp">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_select_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="India"
+            android:textSize="18sp"
+            android:textColor="@color/textBlue"
+            android:drawableStart="@drawable/ic_location"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:drawablePadding="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_20_dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
