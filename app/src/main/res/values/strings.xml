@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">International Times</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_here">Search Keywords</string>
+    <string name="search_title">search</string>
+    <string name="loading_news">Loading News...</string>
+    <string name="tap_to_read_more">Tap again to read more</string>
 </resources>
